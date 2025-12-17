@@ -8,10 +8,10 @@ public class La2JP extends JFrame implements ActionListener{
 	//필드 정의하기
 	private JTextArea inputMsg;
 	private JTextArea output;
-   private JTextArea recommendLabel;
-   private JButton copyBtn;
-   private JButton recommendcopyBtn;
-   private static String recommend = "";
+	private JTextArea recommendLabel;
+   	private JButton copyBtn;
+   	private JButton recommendcopyBtn;
+   	private static String recommend = "";
 
    //생성자
    public La2JP() {
@@ -242,3 +242,4 @@ public class La2JP extends JFrame implements ActionListener{
       }
    }
 }
+
